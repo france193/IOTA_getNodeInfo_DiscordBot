@@ -1,0 +1,30 @@
+{
+  "name": "iota_getnodeinfo_discordbot",
+  "version": "1.0.0",
+  "description": "A simple Discord Bot that retrieve info about synchronization status of a full node and send them to a discord channel every hour.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node -r dotenv/config index.js",
+    "debug": "node -r dotenv/config $NODE_DEBUG_OPTION index.js"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "IOTA",
+    "nodeJS",
+    "JS",
+    "Full-Node",
+    "IRI",
+    "CRON-scheduler"
+  ],
+  "author": "Francesco Longo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "simple-node-logger": "^0.93.40"
+  }
+}
