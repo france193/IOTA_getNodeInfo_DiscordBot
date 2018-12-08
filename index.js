@@ -15,7 +15,7 @@ const TOKEN = process.env.DISCORD_TOKEN;
 const CHANNEL_ID = process.env.DISCORD_CHANNEL_ID;
 
 const cronSchedule = '* * * * *';
-const ismb_node_url = process.env.ISMB_FULL_NODE_URL;
+const ismb_node_url = process.env.FULL_NODE_URL;
 const getNodeInfo_body = {
 	"command": "getNodeInfo"
 };
